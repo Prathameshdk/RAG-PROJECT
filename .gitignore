@@ -5,7 +5,36 @@ __pycache__/
 
 # C extensions
 *.so
+# Virtual environments
+backend/venv/
+frontend/venv/
 
+# Secret API keys — NEVER push this
+.env
+
+# ChromaDB local database
+backend/chroma_db/
+
+# Uploaded files
+backend/uploads/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# Sentence transformers cache (large model files)
+backend/models/
+*.bin
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
 # Distribution / packaging
 .Python
 build/
